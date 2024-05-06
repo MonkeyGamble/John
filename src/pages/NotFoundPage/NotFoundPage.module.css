@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Heebo';
+}
+
+.content_line {
+	max-width: 681px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	margin-top: 110px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons {
+	display: flex;
+	gap: 50px;
+}
+
+.buttons button {
+	width: 200px;
+	padding: 10px;
+}
+
+@media (max-width: 375px) {
+	.content_line {
+		max-width: 354px;
+	}
+	.content h2 {
+		font-size: 30px;
+	}
+
+	.buttons {
+		flex-direction: column;
+		gap: 10px;
+	}
+}

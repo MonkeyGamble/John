@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Heebo';
+}
+.content_line {
+	max-width: 682px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details_wrapper {
+	margin-top: 110px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 27px;
+}
+
+.details_wrapper h1 {
+	max-width: 450px;
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 34px;
+}
+
+.details_wrapper p {
+	font-size: 16px;
+	text-align: left;
+}
+.year_wrapper {
+	display: flex;
+	gap: 17px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.year {
+	width: 62px;
+	height: 25px;
+	border-radius: 16px;
+	text-align: center;
+	background-color: #ff7c7c;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.year_wrapper p:last-child {
+	font-size: 20px;
+}
+
+.details_wrapper img {
+	width: 680px;
+	height: 460px;
+	margin-top: 46px;
+	margin-bottom: 70px;
+	object-fit: contain;
+}
+
+.details_wrapper h2 {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.details_wrapper h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 26px;
+}
+
+.details_wrapper .pic {
+	margin-top: 34px;
+	margin-bottom: 27px;
+}
+
+@media (max-width: 375px) {
+	.content_line {
+		max-width: 339px;
+	}
+	.details_wrapper {
+		gap: 0;
+		padding: 0;
+	}
+	.details_wrapper h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.tags {
+		font-size: 18px;
+		color: #21243d;
+	}
+	.details_wrapper img {
+		max-width: 339px;
+		max-height: 256px;
+		object-fit: contain;
+	}
+	.details_wrapper h2 {
+		font-size: 26px;
+		color: #21243d;
+	}
+	.details_wrapper h3 {
+		font-size: 20px;
+		color: #21243d;
+	}
+	.details_wrapper .pic {
+		margin-top: 0;
+	}
+}
