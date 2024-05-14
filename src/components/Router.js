@@ -7,7 +7,7 @@ import ContactPage from '../pages/ContactPage/ContactPage';
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage';
 import Layout from './Layout';
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
 	{
 		element: <Layout />,
 		children: [
