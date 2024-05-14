@@ -13,27 +13,27 @@ export const router = createHashRouter([
 		children: [
 			{
 				path: '/',
-				component: <HomePage />,
+				element: <HomePage />,
 			},
 			{
 				path: '/blog',
-				component: <BlogPage />,
+				element: <BlogPage />,
 			},
 			{
 				path: '/works',
-				component: <WorksPage />,
+				element: <WorksPage />,
 			},
 			{
 				path: '/works/:id',
-				component: <WorksDetailPage />,
+				element: <WorksDetailPage />,
 			},
 			{
 				path: '/contact',
-				component: <ContactPage />,
+				element: <ContactPage />,
 			},
 			{
 				path: '*',
-				component: <NotFoundPage />,
+				element: <NotFoundPage />,
 			},
 		],
 	},
